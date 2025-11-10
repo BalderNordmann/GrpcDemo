@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="M3PrimaryColor">#6750A4</Color>
+    <Color x:Key="M3OnPrimaryColor">#FFFFFF</Color>
+    <Color x:Key="M3PrimaryContainerColor">#EADDFF</Color>
+    <Color x:Key="M3OnSurfaceColor">#1C1B1F</Color>
+    <Color x:Key="M3SurfaceVariantColor">#E7E0EC</Color>
+
+    <SolidColorBrush x:Key="M3PrimaryBrush" Color="{StaticResource M3PrimaryColor}"/>
+    <SolidColorBrush x:Key="M3OnPrimaryBrush" Color="{StaticResource M3OnPrimaryColor}"/>
+    <SolidColorBrush x:Key="M3PrimaryContainerBrush" Color="{StaticResource M3PrimaryContainerColor}"/>
+    <SolidColorBrush x:Key="M3SurfaceVariantBrush" Color="{StaticResource M3SurfaceVariantColor}"/>
+    <SolidColorBrush x:Key="M3OnSurfaceBrush" Color="{StaticResource M3OnSurfaceColor}"/>
+
+    <DropShadowEffect x:Key="M3Elevation1" BlurRadius="5" ShadowDepth="1" Opacity="0.2" Color="Black"/>
+
+    <Style x:Key="ButtonM3" TargetType="Button">
+        <Setter Property="Background" Value="{StaticResource M3PrimaryBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource M3OnPrimaryBrush}"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Padding" Value="16,8"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Effect" Value="{StaticResource M3Elevation1}"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="20"
+                                SnapsToDevicePixels="True">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"
+                                              RecognizesAccessKey="True"/>
+                        </Border>
+                    </Grid>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border"
+                                    Property="Background"
+                                    Value="{StaticResource M3PrimaryContainerBrush}"/>
+                            <Setter Property="Foreground"
+                                    Value="{StaticResource M3PrimaryBrush}"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border"
+                                    Property="Background"
+                                    Value="{StaticResource M3SurfaceVariantBrush}"/>
+                            <Setter Property="Foreground"
+                                    Value="{StaticResource M3PrimaryBrush}"/>
+                        </Trigger>
+
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border"
+                                    Property="Background"
+                                    Value="#1F000000"/>
+                            <Setter Property="Foreground"
+                                    Value="#61000000"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

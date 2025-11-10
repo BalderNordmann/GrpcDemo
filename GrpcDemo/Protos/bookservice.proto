@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+package bookservice;
+
+service BookService {
+  rpc GetBookInfo (BookLookupModel) returns (BookModel);
+  rpc GetAllBooks (GetAllBooksRequest) returns (stream BookModel);
+}
+
+message GetAllBooksRequest {
+}
+
+message BookLookupModel {
+  int32 bookID = 1;
+}
+
+enum BookCategory{
+	HistoricalFiction = 0;
+	Fantasy = 1;
+	GraphicNovel = 2;
+	ShortStory = 3;
+	YoungAdult = 4;
+	MagicalRealism = 5;
+	FairyTake = 6;
+	WesternFiction = 7;
+	Horro = 8;
+	Memoir = 9;
+	LiteraryFiction = 10;
+	Thirller = 11;
+	AdventureFiction = 12;
+	ChildrensLiterature = 13;
+	WomansFiction = 14;
+	Biography = 15;
+	ScienceFiction = 16;
+	Mystery = 17;
+	Romance = 18;
+	ContemporaryLiterature = 19;
+	DystopianFiction = 20;
+	Classics = 21;
+	Suspense = 22;	
+	Satire = 23;
+}
+
+message BookModel {
+  int32 bookID = 1;
+  string title = 2;
+  string author = 3;
+  float price = 4;
+  bool isAvailable = 5;
+  optional BookCategory bookCategory = 6;
+}
