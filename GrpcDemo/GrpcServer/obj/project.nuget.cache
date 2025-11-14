@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcNT13M4fUY=",
+  "dgSpecHash": "33Y2KhLFEJ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\zscho\\source\\repos\\GrpcDemo\\GrpcServer\\GrpcServer.csproj",
+  "projectFilePath": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcServer\\GrpcServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zscho\\.nuget\\packages\\google.protobuf\\3.23.1\\google.protobuf.3.23.1.nupkg.sha512",
     "C:\\Users\\zscho\\.nuget\\packages\\grpc.aspnetcore\\2.57.0\\grpc.aspnetcore.2.57.0.nupkg.sha512",

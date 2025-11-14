@@ -16,21 +16,21 @@ namespace GrpcServer.Services
         {
             BookModel output = new BookModel();
 
-            //there i can put my Datbase shit
+            //there i can put it in my Datbase
             if (request.BookID == 1)
             {
-                output.Title = "Deine Mom";
-                output.Author = "Dein Dad";
+                output.Title = "The best way";
+                output.Author = "Joy Gorden";
             }
             else if (request.BookID == 2)
             {
-                output.Title = "Jane stinkt";
-                output.Author = "Doe Fotze";
+                output.Title = "Never ending";
+                output.Author = "Doe Jorden";
             }
             else
             {
-                output.Title = "Greg leckt";
-                output.Author = "Thomas Riecht";
+                output.Title = "The best time";
+                output.Author = "Thomas Alleson";
             }
 
             return Task.FromResult(output);
@@ -43,8 +43,8 @@ namespace GrpcServer.Services
                 new BookModel()
                 {
                     BookID = 0,
-                    Title = "Anne Schrank",
-                    Author = "Deine Mam",
+                    Title = "Annes next journey",
+                    Author = "Doe Jorden",
                     Price = 32.2f,
                     IsAvailable = true,
                     BookCategory = BookCategory.Classics,
@@ -52,8 +52,8 @@ namespace GrpcServer.Services
                 new BookModel()
                 {
                     BookID = 1,
-                    Title = "Anne Schrank",
-                    Author = "Deine Mam",
+                    Title = "Annes next journey",
+                    Author = "Doe Jorden",
                     Price = 21.99f,
                     IsAvailable = true,
                     BookCategory = BookCategory.Classics,
@@ -61,8 +61,8 @@ namespace GrpcServer.Services
                 new BookModel()
                 {
                    BookID = 2,
-                    Title = "Anne Schrank",
-                    Author = "Deine Mam",
+                    Title = "Annes next journey",
+                    Author = "Doe Jorden",
                     Price = 19.99f,
                     IsAvailable = true,
                     BookCategory = BookCategory.Classics,

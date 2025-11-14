@@ -26,29 +26,30 @@ namespace GrpcServer {
           string.Concat(
             "ChFib29rc2VydmljZS5wcm90bxILYm9va3NlcnZpY2UiFAoSR2V0QWxsQm9v",
             "a3NSZXF1ZXN0IiEKD0Jvb2tMb29rdXBNb2RlbBIOCgZib29rSUQYASABKAUi",
-            "jwEKCUJvb2tNb2RlbBIOCgZib29rSUQYASABKAkSDQoFdGl0bGUYAiABKAkS",
+            "pQEKCUJvb2tNb2RlbBIOCgZib29rSUQYASABKAUSDQoFdGl0bGUYAiABKAkS",
             "DgoGYXV0aG9yGAMgASgJEg0KBXByaWNlGAQgASgCEhMKC2lzQXZhaWxhYmxl",
-            "GAUgASgIEi8KDGJvb2tDYXRlZ29yeRgGIAMoDjIZLmJvb2tzZXJ2aWNlLkJv",
-            "b2tDYXRlZ29yeSquAwoMQm9va0NhdGVnb3J5EhUKEUhpc3RvcmljYWxGaWN0",
-            "aW9uEAASCwoHRmFudGFzeRABEhAKDEdyYXBoaWNOb3ZlbBACEg4KClNob3J0",
-            "U3RvcnkQAxIOCgpZb3VuZ0FkdWx0EAQSEgoOTWFnaWNhbFJlYWxpc20QBRIN",
-            "CglGYWlyeVRha2UQBhISCg5XZXN0ZXJuRmljdGlvbhAHEgkKBUhvcnJvEAgS",
-            "CgoGTWVtb2lyEAkSEwoPTGl0ZXJhcnlGaWN0aW9uEAoSDAoIVGhpcmxsZXIQ",
-            "CxIUChBBZHZlbnR1cmVGaWN0aW9uEAwSFwoTQ2hpbGRyZW5zTGl0ZXJhdHVy",
-            "ZRANEhEKDVdvbWFuc0ZpY3Rpb24QDhINCglCaW9ncmFwaHkQDxISCg5TY2ll",
-            "bmNlRmljdGlvbhAQEgsKB015c3RlcnkQERILCgdSb21hbmNlEBISGgoWQ29u",
-            "dGVtcG9yYXJ5TGl0ZXJhdHVyZRATEhQKEER5c3RvcGlhbkZpY3Rpb24QFBIM",
-            "CghDbGFzc2ljcxAVEgwKCFN1c3BlbnNlEBYSCgoGU2F0aXJlEBcynAEKC0Jv",
-            "b2tTZXJ2aWNlEkMKC0dldEJvb2tJbmZvEhwuYm9va3NlcnZpY2UuQm9va0xv",
-            "b2t1cE1vZGVsGhYuYm9va3NlcnZpY2UuQm9va01vZGVsEkgKC0dldEFsbEJv",
-            "b2tzEh8uYm9va3NlcnZpY2UuR2V0QWxsQm9va3NSZXF1ZXN0GhYuYm9va3Nl",
-            "cnZpY2UuQm9va01vZGVsMAFCDaoCCkdycGNTZXJ2ZXJiBnByb3RvMw=="));
+            "GAUgASgIEjQKDGJvb2tDYXRlZ29yeRgGIAEoDjIZLmJvb2tzZXJ2aWNlLkJv",
+            "b2tDYXRlZ29yeUgAiAEBQg8KDV9ib29rQ2F0ZWdvcnkqrgMKDEJvb2tDYXRl",
+            "Z29yeRIVChFIaXN0b3JpY2FsRmljdGlvbhAAEgsKB0ZhbnRhc3kQARIQCgxH",
+            "cmFwaGljTm92ZWwQAhIOCgpTaG9ydFN0b3J5EAMSDgoKWW91bmdBZHVsdBAE",
+            "EhIKDk1hZ2ljYWxSZWFsaXNtEAUSDQoJRmFpcnlUYWtlEAYSEgoOV2VzdGVy",
+            "bkZpY3Rpb24QBxIJCgVIb3JybxAIEgoKBk1lbW9pchAJEhMKD0xpdGVyYXJ5",
+            "RmljdGlvbhAKEgwKCFRoaXJsbGVyEAsSFAoQQWR2ZW50dXJlRmljdGlvbhAM",
+            "EhcKE0NoaWxkcmVuc0xpdGVyYXR1cmUQDRIRCg1Xb21hbnNGaWN0aW9uEA4S",
+            "DQoJQmlvZ3JhcGh5EA8SEgoOU2NpZW5jZUZpY3Rpb24QEBILCgdNeXN0ZXJ5",
+            "EBESCwoHUm9tYW5jZRASEhoKFkNvbnRlbXBvcmFyeUxpdGVyYXR1cmUQExIU",
+            "ChBEeXN0b3BpYW5GaWN0aW9uEBQSDAoIQ2xhc3NpY3MQFRIMCghTdXNwZW5z",
+            "ZRAWEgoKBlNhdGlyZRAXMpwBCgtCb29rU2VydmljZRJDCgtHZXRCb29rSW5m",
+            "bxIcLmJvb2tzZXJ2aWNlLkJvb2tMb29rdXBNb2RlbBoWLmJvb2tzZXJ2aWNl",
+            "LkJvb2tNb2RlbBJICgtHZXRBbGxCb29rcxIfLmJvb2tzZXJ2aWNlLkdldEFs",
+            "bEJvb2tzUmVxdWVzdBoWLmJvb2tzZXJ2aWNlLkJvb2tNb2RlbDABQg2qAgpH",
+            "cnBjU2VydmVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::GrpcServer.BookCategory), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcServer.GetAllBooksRequest), global::GrpcServer.GetAllBooksRequest.Parser, null, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcServer.BookLookupModel), global::GrpcServer.BookLookupModel.Parser, new[]{ "BookID" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcServer.BookModel), global::GrpcServer.BookModel.Parser, new[]{ "BookID", "Title", "Author", "Price", "IsAvailable", "BookCategory" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcServer.BookModel), global::GrpcServer.BookModel.Parser, new[]{ "BookID", "Title", "Author", "Price", "IsAvailable", "BookCategory" }, new[]{ "BookCategory" }, null, null, null)
           }));
     }
     #endregion
@@ -452,6 +453,7 @@ namespace GrpcServer {
   {
     private static readonly pb::MessageParser<BookModel> _parser = new pb::MessageParser<BookModel>(() => new BookModel());
     private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pb::MessageParser<BookModel> Parser { get { return _parser; } }
@@ -479,12 +481,13 @@ namespace GrpcServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BookModel(BookModel other) : this() {
+      _hasBits0 = other._hasBits0;
       bookID_ = other.bookID_;
       title_ = other.title_;
       author_ = other.author_;
       price_ = other.price_;
       isAvailable_ = other.isAvailable_;
-      bookCategory_ = other.bookCategory_.Clone();
+      bookCategory_ = other.bookCategory_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -496,13 +499,13 @@ namespace GrpcServer {
 
     /// <summary>Field number for the "bookID" field.</summary>
     public const int BookIDFieldNumber = 1;
-    private string bookID_ = "";
+    private int bookID_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string BookID {
+    public int BookID {
       get { return bookID_; }
       set {
-        bookID_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        bookID_ = value;
       }
     }
 
@@ -556,13 +559,29 @@ namespace GrpcServer {
 
     /// <summary>Field number for the "bookCategory" field.</summary>
     public const int BookCategoryFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::GrpcServer.BookCategory> _repeated_bookCategory_codec
-        = pb::FieldCodec.ForEnum(50, x => (int) x, x => (global::GrpcServer.BookCategory) x);
-    private readonly pbc::RepeatedField<global::GrpcServer.BookCategory> bookCategory_ = new pbc::RepeatedField<global::GrpcServer.BookCategory>();
+    private readonly static global::GrpcServer.BookCategory BookCategoryDefaultValue = global::GrpcServer.BookCategory.HistoricalFiction;
+
+    private global::GrpcServer.BookCategory bookCategory_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::GrpcServer.BookCategory> BookCategory {
-      get { return bookCategory_; }
+    public global::GrpcServer.BookCategory BookCategory {
+      get { if ((_hasBits0 & 1) != 0) { return bookCategory_; } else { return BookCategoryDefaultValue; } }
+      set {
+        _hasBits0 |= 1;
+        bookCategory_ = value;
+      }
+    }
+    /// <summary>Gets whether the "bookCategory" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasBookCategory {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "bookCategory" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearBookCategory() {
+      _hasBits0 &= ~1;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -585,7 +604,7 @@ namespace GrpcServer {
       if (Author != other.Author) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Price, other.Price)) return false;
       if (IsAvailable != other.IsAvailable) return false;
-      if(!bookCategory_.Equals(other.bookCategory_)) return false;
+      if (BookCategory != other.BookCategory) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -593,12 +612,12 @@ namespace GrpcServer {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (BookID.Length != 0) hash ^= BookID.GetHashCode();
+      if (BookID != 0) hash ^= BookID.GetHashCode();
       if (Title.Length != 0) hash ^= Title.GetHashCode();
       if (Author.Length != 0) hash ^= Author.GetHashCode();
       if (Price != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Price);
       if (IsAvailable != false) hash ^= IsAvailable.GetHashCode();
-      hash ^= bookCategory_.GetHashCode();
+      if (HasBookCategory) hash ^= BookCategory.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -617,9 +636,9 @@ namespace GrpcServer {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (BookID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(BookID);
+      if (BookID != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(BookID);
       }
       if (Title.Length != 0) {
         output.WriteRawTag(18);
@@ -637,7 +656,10 @@ namespace GrpcServer {
         output.WriteRawTag(40);
         output.WriteBool(IsAvailable);
       }
-      bookCategory_.WriteTo(output, _repeated_bookCategory_codec);
+      if (HasBookCategory) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) BookCategory);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -648,9 +670,9 @@ namespace GrpcServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (BookID.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(BookID);
+      if (BookID != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(BookID);
       }
       if (Title.Length != 0) {
         output.WriteRawTag(18);
@@ -668,7 +690,10 @@ namespace GrpcServer {
         output.WriteRawTag(40);
         output.WriteBool(IsAvailable);
       }
-      bookCategory_.WriteTo(ref output, _repeated_bookCategory_codec);
+      if (HasBookCategory) {
+        output.WriteRawTag(48);
+        output.WriteEnum((int) BookCategory);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -679,8 +704,8 @@ namespace GrpcServer {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (BookID.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(BookID);
+      if (BookID != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(BookID);
       }
       if (Title.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
@@ -694,7 +719,9 @@ namespace GrpcServer {
       if (IsAvailable != false) {
         size += 1 + 1;
       }
-      size += bookCategory_.CalculateSize(_repeated_bookCategory_codec);
+      if (HasBookCategory) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BookCategory);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -707,7 +734,7 @@ namespace GrpcServer {
       if (other == null) {
         return;
       }
-      if (other.BookID.Length != 0) {
+      if (other.BookID != 0) {
         BookID = other.BookID;
       }
       if (other.Title.Length != 0) {
@@ -722,7 +749,9 @@ namespace GrpcServer {
       if (other.IsAvailable != false) {
         IsAvailable = other.IsAvailable;
       }
-      bookCategory_.Add(other.bookCategory_);
+      if (other.HasBookCategory) {
+        BookCategory = other.BookCategory;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -742,8 +771,8 @@ namespace GrpcServer {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 10: {
-            BookID = input.ReadString();
+          case 8: {
+            BookID = input.ReadInt32();
             break;
           }
           case 18: {
@@ -762,9 +791,8 @@ namespace GrpcServer {
             IsAvailable = input.ReadBool();
             break;
           }
-          case 50:
           case 48: {
-            bookCategory_.AddEntriesFrom(input, _repeated_bookCategory_codec);
+            BookCategory = (global::GrpcServer.BookCategory) input.ReadEnum();
             break;
           }
         }
@@ -786,8 +814,8 @@ namespace GrpcServer {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
-          case 10: {
-            BookID = input.ReadString();
+          case 8: {
+            BookID = input.ReadInt32();
             break;
           }
           case 18: {
@@ -806,9 +834,8 @@ namespace GrpcServer {
             IsAvailable = input.ReadBool();
             break;
           }
-          case 50:
           case 48: {
-            bookCategory_.AddEntriesFrom(ref input, _repeated_bookCategory_codec);
+            BookCategory = (global::GrpcServer.BookCategory) input.ReadEnum();
             break;
           }
         }

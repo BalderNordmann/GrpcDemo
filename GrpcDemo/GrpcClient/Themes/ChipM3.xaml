@@ -2,14 +2,12 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:GrpcClient.Themes">
 
-        <!-- Colors you can adjust to match Material 3 theme -->
         <SolidColorBrush x:Key="ChipBackground" Color="#FFF3F4F6"/>
         <SolidColorBrush x:Key="ChipSelectedBackground" Color="#FF1F7AE0"/>
         <SolidColorBrush x:Key="ChipForeground" Color="#FF111827"/>
         <SolidColorBrush x:Key="ChipSelectedForeground" Color="White"/>
         <SolidColorBrush x:Key="ChipBorderBrush" Color="#FFE5E7EB"/>
 
-        <!-- M3 Chip style for ToggleButton -->
         <Style x:Key="ChipM3" TargetType="ToggleButton">
             <Setter Property="Focusable" Value="True"/>
             <Setter Property="MinHeight" Value="32"/>
@@ -31,23 +29,18 @@
                                 SnapsToDevicePixels="True">
                             <Grid Margin="6,0">
                                 <Grid.ColumnDefinitions>
-                                    <!-- Icon column -->
                                     <ColumnDefinition Width="Auto"/>
-                                    <!-- small gap -->
                                     <ColumnDefinition Width="6"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
 
-                                <!-- Icon: hidden by default; visible when selected -->
                                 <Viewbox Width="16" Height="16" VerticalAlignment="Center" Grid.Column="0" x:Name="IconContainer" Visibility="Collapsed" Opacity="0">
-                                    <!-- sample path: checkmark — replace with any PathGeometry or Image -->
                                     <Canvas Width="24" Height="24">
                                         <Path Data="M20.285 6.709a1 1 0 0 0-1.414-1.418L9 15.162l-3.871-3.87a1 1 0 0 0-1.414 1.415l4.578 4.579a1 1 0 0 0 1.414 0L20.285 6.71z"
                                               Fill="{TemplateBinding Foreground}" Stretch="Uniform"/>
                                     </Canvas>
                                 </Viewbox>
 
-                                <!-- Content -->
                                 <ContentPresenter Grid.Column="2"
                                                   VerticalAlignment="Center"
                                                   RecognizesAccessKey="True"
@@ -55,9 +48,7 @@
                             </Grid>
                         </Border>
 
-                        <!-- Visual states / triggers -->
                         <ControlTemplate.Triggers>
-                            <!-- Checked: show icon, change colors -->
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="Bd" Property="Background" Value="{StaticResource ChipSelectedBackground}"/>
                                 <Setter Property="Foreground" Value="{StaticResource ChipSelectedForeground}"/>
@@ -66,17 +57,14 @@
                                 <Setter Property="BorderBrush" Value="{StaticResource ChipSelectedBackground}"/>
                             </Trigger>
 
-                            <!-- MouseOver -->
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="Bd" Property="BorderBrush" Value="{StaticResource ChipSelectedBackground}"/>
                             </Trigger>
 
-                            <!-- Disabled -->
                             <Trigger Property="IsEnabled" Value="False">
                                 <Setter Property="Opacity" Value="0.5"/>
                             </Trigger>
 
-                            <!-- Animate opacity when toggling (fade in/out) -->
                             <Trigger Property="IsChecked" Value="True">
                                 <Trigger.EnterActions>
                                     <BeginStoryboard>

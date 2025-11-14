@@ -7,6 +7,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -18,12 +19,11 @@ namespace GrpcClient
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool isPanelOpen = false;
         public MainWindow()
         {
             InitializeComponent();
 
-            //Task.Run(AsyncHelloTask);
-            //Task.Run(AsyncDataTask);
             Task.Run(AsyncMultiDataTask);
         }
 
@@ -72,6 +72,23 @@ namespace GrpcClient
         public void GetMessage(string _message)
         {
             L_msg.Content = _message;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            double from = isPanelOpen ? 0 : -200;
+            double to = isPanelOpen ? -200 : 0;
+
+            var animation = new ThicknessAnimation
+            {
+                From = new Thickness(from, 0, 0, 0),
+                To = new Thickness(to, 0, 0, 0),
+                Duration = new Duration(TimeSpan.FromMilliseconds(300)),
+                EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
+            };
+
+            SidePanel.BeginAnimation(MarginProperty, animation);
+            isPanelOpen = !isPanelOpen;
         }
     }
 }

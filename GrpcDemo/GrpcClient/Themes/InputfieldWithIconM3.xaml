@@ -3,7 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:GrpcClient.Themes">
 
-    <!-- Farben / Brushes -->
     <SolidColorBrush x:Key="M3PrimaryBrush" Color="#6750A4"/>
     <SolidColorBrush x:Key="M3OutlineBrush" Color="#79747E"/>
     <SolidColorBrush x:Key="M3SurfaceBrush" Color="#FFFBFE"/>
@@ -11,7 +10,6 @@
 
     <DropShadowEffect x:Key="M3Elevation1" BlurRadius="4" ShadowDepth="1" Opacity="0.1" Color="Black"/>
 
-    <!-- Style -->
     <Style x:Key="InputfieldWithIconM3" TargetType="local:InputfieldWithIconM3">
         <Setter Property="FontSize" Value="14"/>
         <Setter Property="BorderThickness" Value="0"/>
@@ -37,7 +35,6 @@
                                 <Path x:Name="IconPath" Data="{TemplateBinding IconImageData}" Fill="{StaticResource M3OutlineBrush}" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top"/>
                             </Viewbox>
 
-                            <!-- Text -->
                             <ScrollViewer Grid.Column="1"
                                           Margin="0,4,12,4"
                                           x:Name="PART_ContentHost"
