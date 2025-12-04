@@ -23,12 +23,12 @@ enum BookCategory{
 	ShortStory = 3;
 	YoungAdult = 4;
 	MagicalRealism = 5;
-	FairyTake = 6;
+	FairyTale = 6;
 	WesternFiction = 7;
-	Horro = 8;
+	Horror = 8;
 	Memoir = 9;
 	LiteraryFiction = 10;
-	Thirller = 11;
+	Thriller = 11;
 	AdventureFiction = 12;
 	ChildrensLiterature = 13;
 	WomansFiction = 14;

@@ -16,7 +16,7 @@
             <Setter Property="Background" Value="{StaticResource ChipBackground}"/>
             <Setter Property="Foreground" Value="{StaticResource ChipForeground}"/>
             <Setter Property="BorderBrush" Value="{StaticResource ChipBorderBrush}"/>
-            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderThickness" Value="2"/>
             <Setter Property="FontSize" Value="13"/>
             <Setter Property="Template">
                 <Setter.Value>
@@ -26,6 +26,7 @@
                                 BorderBrush="{TemplateBinding BorderBrush}"
                                 BorderThickness="{TemplateBinding BorderThickness}"
                                 CornerRadius="16"
+                                UseLayoutRounding="True"
                                 SnapsToDevicePixels="True">
                             <Grid Margin="6,0">
                                 <Grid.ColumnDefinitions>
@@ -35,7 +36,7 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Viewbox Width="16" Height="16" VerticalAlignment="Center" Grid.Column="0" x:Name="IconContainer" Visibility="Collapsed" Opacity="0">
-                                    <Canvas Width="24" Height="24">
+                                    <Canvas Width="16" Height="16">
                                         <Path Data="M20.285 6.709a1 1 0 0 0-1.414-1.418L9 15.162l-3.871-3.87a1 1 0 0 0-1.414 1.415l4.578 4.579a1 1 0 0 0 1.414 0L20.285 6.71z"
                                               Fill="{TemplateBinding Foreground}" Stretch="Uniform"/>
                                     </Canvas>

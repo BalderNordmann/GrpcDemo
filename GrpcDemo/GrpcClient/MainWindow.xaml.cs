@@ -76,13 +76,18 @@ namespace GrpcClient
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            double from = isPanelOpen ? 0 : -200;
-            double to = isPanelOpen ? -200 : 0;
+            toggleBookCategory();
+        }
+
+        private void toggleBookCategory()
+        {
+            double from = isPanelOpen ? 0 : -SidePanel.Width;
+            double to = isPanelOpen ? -SidePanel.Width : 0 + 5;  
 
             var animation = new ThicknessAnimation
             {
-                From = new Thickness(from, 0, 0, 0),
-                To = new Thickness(to, 0, 0, 0),
+                From = new Thickness(from, SidePanel.Margin.Top, SidePanel.Margin.Right, SidePanel.Margin.Bottom),
+                To = new Thickness(to, SidePanel.Margin.Top, SidePanel.Margin.Right, SidePanel.Margin.Bottom),
                 Duration = new Duration(TimeSpan.FromMilliseconds(300)),
                 EasingFunction = new QuadraticEase { EasingMode = EasingMode.EaseInOut }
             };

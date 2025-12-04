@@ -7,33 +7,60 @@
         xmlns:local2="clr-namespace:GrpcClient.Themes"
         xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
         mc:Ignorable="d"
-        Title="Bookstore" Height="450" Width="800" Background="White">
+        Title="Bookstore" Height="1080" Width="1920" Background="White" WindowState="Maximized">
     <Grid>
-        <Label Content="Message reply from Server:" HorizontalAlignment="Left" Width="157" Height="26" VerticalAlignment="Top"/>
-        <Label Content="Message" Margin="168,0,0,0" Name="L_msg" HorizontalAlignment="Left" Width="232" Height="85" VerticalAlignment="Top"/>
-        <Button Style="{StaticResource ButtonM3}" Content="Material 3 Button" Width="180" Height="48" Margin="10,100,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_Click"/>
-        <local2:InputfieldWithIconM3 Style="{StaticResource InputfieldWithIconM3}" IconImageData="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" VerticalContentAlignment="Center" Text="Hallo" Margin="195,100,0,0" HorizontalAlignment="Left" Width="197" Height="43" VerticalAlignment="Top"/>
-        <local2:IconButtonM3 Style="{StaticResource IconButtonM3}" IconImageData="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" Width="48" Height="48" Margin="10,169,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <ToggleButton Style="{StaticResource ChipM3}" Content="Selected" IsChecked="True" Margin="105,169,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="Message reply from Server:" HorizontalAlignment="Left" Width="157" Height="26" VerticalAlignment="Top" Margin="600,0,0,0"/>
+        <Label Content="Message" Margin="800,0,0,0" Name="L_msg" HorizontalAlignment="Left" Width="232" Height="85" VerticalAlignment="Top"/>
+        <Button Style="{StaticResource ButtonM3}" Content="Material 3 Button" Width="180" Height="48" Margin="10,100,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click"/>
+        <local2:InputfieldWithIconM3 Style="{StaticResource InputfieldWithIconM3}" IconImageData="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" VerticalContentAlignment="Top" Text="Hallo" Margin="68,10,0,0" HorizontalAlignment="Left" Width="400" Height="48" VerticalAlignment="Top"/>
+        <local2:IconButtonM3 Style="{StaticResource IconButtonM3}" Click="Button_Click" IconImageData="M440-160q-17 0-28.5-11.5T400-200v-240L168-736q-15-20-4.5-42t36.5-22h560q26 0 36.5 22t-4.5 42L560-440v240q0 17-11.5 28.5T520-160h-80Zm40-308 198-252H282l198 252Zm0 0Z" Width="48" Height="48" Margin="477,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <local2:IconButtonM3 Style="{StaticResource IconButtonM3}" Click="Button_Click" IconImageData="M160-160v-80h110l-16-14q-52-46-73-105t-21-119q0-111 66.5-197.5T400-790v84q-72 26-116 88.5T240-478q0 45 17 87.5t53 78.5l10 10v-98h80v240H160Zm400-10v-84q72-26 116-88.5T720-482q0-45-17-87.5T650-648l-10-10v98h-80v-240h240v80H690l16 14q49 49 71.5 106.5T800-482q0 111-66.5 197.5T560-170Z" Width="48" Height="48" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
 
-        <Border x:Name="SidePanel"
-                Background="#2D89EF"
-                Width="250"
-                HorizontalAlignment="Left"
-                Margin="-200,0,0,0"
-                >
+        <Border Background="#f2f2f2" Width="400" HorizontalAlignment="Right" CornerRadius="20,0,0,20" >
             <Grid>
-                <local2:IconButtonM3 Style="{StaticResource IconButtonM3}" IconImageData="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" Width="48" Height="48" Margin="202,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left"/>
-                <StackPanel Margin="0,0,40,0">
-                    <TextBlock Text="Menu" 
-               Foreground="White"
-               FontSize="20"
-               Margin="10"/>
-                    <Button Content="Option 1" Margin="10"/>
-                    <Button Content="Option 2" Margin="10"/>
-                </StackPanel>
-            </Grid>
+                <TextBlock Text="Shopping Cart" Foreground="Black" FontSize="20" Margin="20,20,0,0" Width="150" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                <Button Style="{StaticResource ButtonM3}" Content="Kasse" Width="180" Height="48" Margin="10,0,0,20" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="Button_Click"/>
 
+            </Grid>
+        </Border>
+        
+        <Border Background="#f2f2f2" CornerRadius="20" Margin="5,73,405,0"/>
+        
+        <Border x:Name="SidePanel" Background="#e6e6e6" Width="420" Margin="-420,73,5,5" HorizontalAlignment="Left" VerticalAlignment="Stretch" CornerRadius="20">
+            <Grid>
+                <local2:IconButtonM3 Style="{StaticResource IconButtonM3}" Click="Button_Click" IconImageData="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z" Width="48" Height="48" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+                <TextBlock Text="Book Category" Foreground="Black" FontSize="20" Margin="20,20,0,0" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <Button Style="{StaticResource ButtonM3}" Content="Select All" Width="180" Height="48" Margin="10,80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_Click"/>
+                <Button Style="{StaticResource ButtonM3}" Content="Unselect All" Width="180" Height="48" Margin="200,80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_Click"/>
+                <ScrollViewer Margin="0,146,0,20" Width="400" Background="Transparent" BorderBrush="Transparent">
+                    <WrapPanel Orientation="Horizontal" Margin="-5,-5,0,0" Width="400" VerticalAlignment="Top">
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Historical Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fantasy" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Graphic Novel" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Short Story" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Young Adult" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Magical Realism" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fairy Tale" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Western Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Horror" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Memoir" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Literary Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Thriller" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Adventure Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="ChildrensLiterature" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Womans Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Biography" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Science Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Mystery" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Romance" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Contemporary Literature" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Dystopian Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Classics" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Suspense" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Satire" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                    </WrapPanel>
+                </ScrollViewer>
+            </Grid>
         </Border>
     </Grid>
 </Window>
