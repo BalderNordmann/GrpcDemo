@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Google.Protobuf/3.33.0": {
+      "Google.Protobuf/3.33.1": {
         "type": "package",
         "compile": {
           "lib/net5.0/Google.Protobuf.dll": {
@@ -87,14 +87,14 @@
     }
   },
   "libraries": {
-    "Google.Protobuf/3.33.0": {
-      "sha512": "+kIa03YipuiSDeRuZwcDcXS1xBQAFeGLIjuLbgJr2i+TlwBPYAqdnQZJ2SDVzIgDyy+q+n/400WyWyrJ5ZqCgQ==",
+    "Google.Protobuf/3.33.1": {
+      "sha512": "RztiFmX9aOWDwfhxFzx/nS4fjs4DX7ZC7/XBEBl56k15lPGBftvbSwZkeo1mMCJHrNp1kK5iQYrFXB4MqCmBCA==",
       "type": "package",
-      "path": "google.protobuf/3.33.0",
+      "path": "google.protobuf/3.33.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "google.protobuf.3.33.0.nupkg.sha512",
+        "google.protobuf.3.33.1.nupkg.sha512",
         "google.protobuf.nuspec",
         "lib/net45/Google.Protobuf.dll",
         "lib/net45/Google.Protobuf.pdb",
@@ -294,7 +294,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Google.Protobuf >= 3.33.0",
+      "Google.Protobuf >= 3.33.1",
       "Grpc.Net.Client >= 2.71.0",
       "Grpc.Tools >= 2.76.0"
     ]
@@ -351,7 +351,7 @@
         "dependencies": {
           "Google.Protobuf": {
             "target": "Package",
-            "version": "[3.33.0, )"
+            "version": "[3.33.1, )"
           },
           "Grpc.Net.Client": {
             "target": "Package",

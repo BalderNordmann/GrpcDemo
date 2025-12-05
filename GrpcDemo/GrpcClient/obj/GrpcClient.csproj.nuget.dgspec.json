@@ -52,7 +52,7 @@
           "dependencies": {
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.33.0, )"
+              "version": "[3.33.1, )"
             },
             "Grpc.Net.Client": {
               "target": "Package",
