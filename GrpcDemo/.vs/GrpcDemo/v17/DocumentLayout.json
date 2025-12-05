@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\inputfieldwithiconm3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\inputfieldwithiconm3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\inputfieldwithiconm3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\inputfieldwithiconm3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\inputfieldwithiconm3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\inputfieldwithiconm3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\icons\\sync_24dp_fill0.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -63,6 +71,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShoppingCartItem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
+              "RelativeToolTip": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:38:56.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShoppingCartItem.xaml",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
+              "RelativeDocumentMoniker": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
+              "RelativeToolTip": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-05T15:38:46.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "InputfieldWithIconM3.xaml",
               "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\InputfieldWithIconM3.xaml",
               "RelativeDocumentMoniker": "GrpcClient\\Themes\\InputfieldWithIconM3.xaml",
@@ -74,109 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InputfieldWithIconM3.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\InputfieldWithIconM3.cs",
-              "RelativeDocumentMoniker": "GrpcClient\\Themes\\InputfieldWithIconM3.cs",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\InputfieldWithIconM3.cs",
-              "RelativeToolTip": "GrpcClient\\Themes\\InputfieldWithIconM3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T22:06:47.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "sync_24dp_FILL0.svg",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\sync_24dp_FILL0.svg",
-              "RelativeDocumentMoniker": "GrpcClient\\Icons\\sync_24dp_FILL0.svg",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\sync_24dp_FILL0.svg",
-              "RelativeToolTip": "GrpcClient\\Icons\\sync_24dp_FILL0.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACOAQAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-04T21:02:14.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bookservice.proto",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\Protos\\bookservice.proto",
-              "RelativeDocumentMoniker": "Protos\\bookservice.proto",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\Protos\\bookservice.proto",
-              "RelativeToolTip": "Protos\\bookservice.proto",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2025-12-04T17:29:25.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ChipM3.xaml",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\ChipM3.xaml",
-              "RelativeDocumentMoniker": "GrpcClient\\Themes\\ChipM3.xaml",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\ChipM3.xaml",
-              "RelativeToolTip": "GrpcClient\\Themes\\ChipM3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-04T15:56:08.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "filter_alt_24dp_FILL0.svg",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
-              "RelativeDocumentMoniker": "GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
-              "RelativeToolTip": "GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAQAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-04T15:49:39.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IconButtonM3.xaml",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\IconButtonM3.xaml",
-              "RelativeDocumentMoniker": "GrpcClient\\Themes\\IconButtonM3.xaml",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\IconButtonM3.xaml",
-              "RelativeToolTip": "GrpcClient\\Themes\\IconButtonM3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-12-04T15:14:40.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "arrow_forward_ios_24dp_FILL0.svg",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
-              "RelativeDocumentMoniker": "GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
-              "RelativeToolTip": "GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACnAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-04T15:05:10.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "GrpcServer\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\BookService.cs",
-              "RelativeToolTip": "GrpcServer\\Services\\BookService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T15:00:14.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GrpcClient\\MainWindow.xaml.cs",
@@ -184,8 +115,7 @@
               "RelativeToolTip": "GrpcClient\\MainWindow.xaml.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAIwEQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:59:23.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:59:23.39Z"
             },
             {
               "$type": "Document",
@@ -201,7 +131,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputfieldWithIconM3.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\InputfieldWithIconM3.cs",
+              "RelativeDocumentMoniker": "GrpcClient\\Themes\\InputfieldWithIconM3.cs",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\InputfieldWithIconM3.cs",
+              "RelativeToolTip": "GrpcClient\\Themes\\InputfieldWithIconM3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T22:06:47.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "sync_24dp_FILL0.svg",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\sync_24dp_FILL0.svg",
+              "RelativeDocumentMoniker": "GrpcClient\\Icons\\sync_24dp_FILL0.svg",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\sync_24dp_FILL0.svg",
+              "RelativeToolTip": "GrpcClient\\Icons\\sync_24dp_FILL0.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACOAQAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-04T21:02:14.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bookservice.proto",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\Protos\\bookservice.proto",
+              "RelativeDocumentMoniker": "Protos\\bookservice.proto",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\Protos\\bookservice.proto",
+              "RelativeToolTip": "Protos\\bookservice.proto",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-12-04T17:29:25.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChipM3.xaml",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\ChipM3.xaml",
+              "RelativeDocumentMoniker": "GrpcClient\\Themes\\ChipM3.xaml",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\ChipM3.xaml",
+              "RelativeToolTip": "GrpcClient\\Themes\\ChipM3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T15:56:08.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "filter_alt_24dp_FILL0.svg",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
+              "RelativeDocumentMoniker": "GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
+              "RelativeToolTip": "GrpcClient\\Icons\\filter_alt_24dp_FILL0.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAQAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-04T15:49:39.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IconButtonM3.xaml",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\IconButtonM3.xaml",
+              "RelativeDocumentMoniker": "GrpcClient\\Themes\\IconButtonM3.xaml",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\IconButtonM3.xaml",
+              "RelativeToolTip": "GrpcClient\\Themes\\IconButtonM3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T15:14:40.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "arrow_forward_ios_24dp_FILL0.svg",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
+              "RelativeDocumentMoniker": "GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
+              "RelativeToolTip": "GrpcClient\\Icons\\arrow_forward_ios_24dp_FILL0.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACnAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-04T15:05:10.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcServer\\Services\\BookService.cs",
+              "RelativeToolTip": "GrpcServer\\Services\\BookService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T15:00:14.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "GrpcClient.csproj",
               "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\GrpcClient.csproj",
               "RelativeDocumentMoniker": "GrpcClient\\GrpcClient.csproj",
@@ -209,8 +236,7 @@
               "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T14:44:38.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:44:38.323Z"
             }
           ]
         }
