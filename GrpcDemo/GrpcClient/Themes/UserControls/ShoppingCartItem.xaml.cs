@@ -34,6 +34,15 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty ItemNameProperty =
             DependencyProperty.Register(nameof(ItemName), typeof(string), typeof(ShoppingCartItem));
 
+        public string ItemPrice
+        {
+            get => (string)GetValue(ItemPriceProperty);
+            set => SetValue(ItemPriceProperty, value);
+        }
+
+        public static readonly DependencyProperty ItemPriceProperty =
+            DependencyProperty.Register(nameof(ItemPrice), typeof(string), typeof(ShoppingCartItem));
+
         public int Quantity
         {
             get => (int)GetValue(QuantityProperty);

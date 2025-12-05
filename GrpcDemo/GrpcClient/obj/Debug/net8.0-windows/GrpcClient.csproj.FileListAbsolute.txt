@@ -67,3 +67,5 @@ C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\
 C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\net8.0-windows\GrpcClient.pdb
 C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\net8.0-windows\GrpcClient.genruntimeconfig.cache
 C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\net8.0-windows\ref\GrpcClient.dll
+C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\net8.0-windows\Themes\UserControls\ShoppingCartItem.g.cs
+C:\Users\zscho\OneDrive\Dokumente\GitHub\GrpcDemo\GrpcDemo\GrpcClient\obj\Debug\net8.0-windows\Themes\UserControls\ShoppingCartItem.baml
