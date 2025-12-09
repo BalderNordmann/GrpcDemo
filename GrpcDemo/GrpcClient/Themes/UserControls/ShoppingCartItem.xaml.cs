@@ -43,6 +43,26 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty ItemPriceProperty =
             DependencyProperty.Register(nameof(ItemPrice), typeof(string), typeof(ShoppingCartItem));
 
+        public string ItemPriceCalulated
+        {
+            get {
+                if (float.TryParse((string)GetValue(ItemPriceCalulatedProperty), out float price))
+                {
+                    if (int.TryParse((string)GetValue(QuantityProperty), out int amount))
+                    {
+                        float calcPrice = MathF.Round(price * amount, 2);
+                        return $"{calcPrice}€";
+                    }
+                }
+
+                return "0,00€";
+            }
+            set => SetValue(ItemPriceCalulatedProperty, value);
+        }
+
+        public static readonly DependencyProperty ItemPriceCalulatedProperty =
+            DependencyProperty.Register(nameof(ItemPriceCalulated), typeof(string), typeof(ShoppingCartItem));
+
         public int Quantity
         {
             get => (int)GetValue(QuantityProperty);

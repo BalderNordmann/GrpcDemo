@@ -35,7 +35,7 @@
 
                 <themes:IconButtonM3 Style="{StaticResource IconButtonM3}" Click="Plus_Click" IconImageData="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" Width="48" Height="48"/>
 
-                <TextBlock Text="{Binding ItemPrice, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                <TextBlock Text="{Binding ItemPriceCalulated, RelativeSource={RelativeSource AncestorType=UserControl}}"
                             FontSize="16"
                             Width="48"
                             HorizontalAlignment="Center"

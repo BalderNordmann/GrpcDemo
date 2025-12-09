@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|solutionrelative:grpcclient\\themes\\usercontrols\\shoppingcartitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1029EB1C-9D79-41AD-BA72-D8018767C386}|GrpcClient\\GrpcClient.csproj|c:\\users\\zscho\\onedrive\\dokumente\\github\\grpcdemo\\grpcdemo\\grpcclient\\icons\\delete_24dp_fill0.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -90,8 +90,7 @@
               "RelativeToolTip": "GrpcClient\\Icons\\delete_24dp_FILL0.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA2AQAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-05T16:58:53.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T16:58:53.756Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "GrpcClient\\Icons\\add_24dp_FILL0.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACtAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-05T16:07:39.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T16:07:39.384Z"
             },
             {
               "$type": "Document",
@@ -116,25 +114,24 @@
               "RelativeToolTip": "GrpcClient\\Icons\\remove_24dp_FILL0.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACMAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKMSURBVDhPjZNLSFRhFMd/3507M/dKPsacsYelWGZZFFJRkdSmNrUoatMiKggSN2YFEUX3MvQiiBYWtFAyggoXPSGyhQuhFrXQFr7GMFOowcZMUO9MM3pPi9Eao6gf/Bcfh3PO/5yPo8jAsqxI5vtvKKXuhMPhK4jInIBlWRH5Bw0NDYOWZUVs264B0DILKEUXCCIpZOIi7uetpHpCxN8GiffU4rrThEIhXzgcXiEidbZtH/5ZQKTV\u002B72oItjSYfG5vxwneoX2/iW80dvxb4ji9D4BIBAIeBsbG4fSOXJWzSR7qpt9D\u002BvWndpTlNXL2HCQ28PXaIuVEB2Dmsp8DiZqyN35FAFiw19IJpPcbmrq0wCq7\u002BvHd5Y\u002B2rMy5y3OcBXmqtccq9rB/uUFKI/GzfZRPhRdBhEQIRgKUlxSAoAm0uqtWNB5Yu\u002Bier5\u002BWOoWbnxAwAwQzDao3lLIobX5ePxemiImroCIzFm\u002BztT7/CPLzi8ej\u002BVxdeyu1nJjgMR3FwDl0fD4dJRHozuWACStjM/TGDlZ50tNqHuxejo\u002B\u002BZPL8wwqCvxUFPhZFfBSbIBMJti0wJjpDpJRQXfjzr6uj9u\u002BtYysCWijA4OPqzeXpVLJtE010zS9cZDM1DTa9ASLmoaOnh4cEYaySsoa30T5Mp5kPD7Ni\u002B5Rtt7qofzqO553jqQHmHExi5p8RcRNsb6y7VWtnm1ecjUdcdM7QClwhQPl8zi3o\u002BiXdREMMwvbtvv0KYfmRJSBtvlVY93O6ujLlc8WdsYcdE1RmutlV3kO20tzcXFRohBFerQ/ccE6c11EJB53xIk7EndmNSnObxIRsSwrMucWUvh2AxiGiWmYGOassjB/0yxzzPzvOWfyAyvlXYiiBFoWAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-12-05T16:01:04.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T16:01:04.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShoppingCartItem.xaml.cs",
               "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
               "RelativeDocumentMoniker": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
               "ToolTip": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
               "RelativeToolTip": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAvwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAlwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T15:38:56.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ShoppingCartItem.xaml",
               "DocumentMoniker": "C:\\Users\\zscho\\OneDrive\\Dokumente\\GitHub\\GrpcDemo\\GrpcDemo\\GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
               "RelativeDocumentMoniker": "GrpcClient\\Themes\\UserControls\\ShoppingCartItem.xaml",
@@ -286,8 +283,7 @@
               "RelativeToolTip": "GrpcClient\\GrpcClient.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T14:44:38.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:44:38.323Z"
             }
           ]
         }
