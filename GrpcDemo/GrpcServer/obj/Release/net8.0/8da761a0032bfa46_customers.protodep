@@ -1,2 +1,0 @@
-obj\Release\net8.0/Customers.cs \
-obj\Release\net8.0/CustomersGrpc.cs: ../Protos/customers.proto
