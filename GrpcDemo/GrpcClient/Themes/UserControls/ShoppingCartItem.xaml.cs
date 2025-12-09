@@ -26,6 +26,16 @@ namespace GrpcClient.Themes.UserControls
             Loaded += shoppingCartItem_Loaded;
         }
 
+        public static readonly RoutedEvent RemoveEvent =
+            EventManager.RegisterRoutedEvent(name: "Remove", routingStrategy: RoutingStrategy.Bubble,
+            handlerType: typeof(RoutedEventHandler), ownerType: typeof(ShoppingCartItem));
+
+        public event RoutedEventHandler Remove
+        {
+            add { AddHandler(RemoveEvent, value); }
+            remove { RemoveHandler(RemoveEvent, value); }
+        }
+
         public string ItemName
         {
             get => (string)GetValue(ItemNameProperty);
@@ -82,9 +92,15 @@ namespace GrpcClient.Themes.UserControls
                 Quantity--;
         }
 
+        protected void RaiseRemoveEvent()
+        {
+            RoutedEventArgs args = new RoutedEventArgs(RemoveEvent);
+            RaiseEvent(args);
+        }
+
         private void removeShoppingCardItem_Click(object sender, RoutedEventArgs e)
         {
-            //remove
+            RaiseRemoveEvent();
         }
 
         private void updateItemPriceDisplay()

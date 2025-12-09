@@ -25,6 +25,16 @@ namespace GrpcClient.Themes.UserControls
             InitializeComponent();
         }
 
+        public static readonly RoutedEvent ClickEvent = 
+            EventManager.RegisterRoutedEvent(name: "Click", routingStrategy: RoutingStrategy.Bubble,
+            handlerType: typeof(RoutedEventHandler), ownerType: typeof(BookItem));
+
+        public event RoutedEventHandler Click
+        {
+            add { AddHandler(ClickEvent, value); }
+            remove { RemoveHandler(ClickEvent, value); }
+        }
+
         public string BookTitle
         {
             get => (string)GetValue(BookTitleProperty);
@@ -43,13 +53,42 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty BookAuthorProperty =
             DependencyProperty.Register(nameof(BookAuthor), typeof(string), typeof(BookItem));
 
-        public Action<object, RoutedEventArgs> OnClick
+        public string BookPrice
         {
-            get => (Action<object, RoutedEventArgs>)GetValue(OnClickProperty);
-            set => SetValue(OnClickProperty, value);
+            get => (string)GetValue(BookPriceProperty);
+            set => SetValue(BookPriceProperty, value);
         }
 
-        public static readonly DependencyProperty OnClickProperty =
-            DependencyProperty.Register(nameof(OnClick), typeof(Action<object, RoutedEventArgs>), typeof(BookItem));
+        public static readonly DependencyProperty BookPriceProperty =
+            DependencyProperty.Register(nameof(BookPrice), typeof(string), typeof(BookItem));
+
+        public string BookStatus
+        {
+            get => (string)GetValue(BookStatusProperty);
+            set => SetValue(BookStatusProperty, value);
+        }
+
+        public static readonly DependencyProperty BookStatusProperty =
+            DependencyProperty.Register(nameof(BookStatus), typeof(string), typeof(BookItem));
+
+        public string BookID
+        {
+            get => (string)GetValue(BookIDProperty);
+            set => SetValue(BookIDProperty, value);
+        }
+
+        public static readonly DependencyProperty BookIDProperty =
+            DependencyProperty.Register(nameof(BookID), typeof(string), typeof(BookItem));
+
+        protected void RaiseClickEvent()
+        {
+            RoutedEventArgs args = new RoutedEventArgs(ClickEvent);
+            RaiseEvent(args);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RaiseClickEvent();
+        }
     }
 }
