@@ -32,7 +32,7 @@ namespace GrpcClient.Themes.UserControls
         }
 
         public static readonly DependencyProperty BookTitleProperty =
-            DependencyProperty.Register(nameof(BookTitle), typeof(string), typeof(ShoppingCartItem));
+            DependencyProperty.Register(nameof(BookTitle), typeof(string), typeof(BookItem));
 
         public string BookAuthor
         {
@@ -41,6 +41,15 @@ namespace GrpcClient.Themes.UserControls
         }
 
         public static readonly DependencyProperty BookAuthorProperty =
-            DependencyProperty.Register(nameof(BookAuthor), typeof(string), typeof(ShoppingCartItem));
+            DependencyProperty.Register(nameof(BookAuthor), typeof(string), typeof(BookItem));
+
+        public Action<object, RoutedEventArgs> OnClick
+        {
+            get => (Action<object, RoutedEventArgs>)GetValue(OnClickProperty);
+            set => SetValue(OnClickProperty, value);
+        }
+
+        public static readonly DependencyProperty OnClickProperty =
+            DependencyProperty.Register(nameof(OnClick), typeof(Action<object, RoutedEventArgs>), typeof(BookItem));
     }
 }
