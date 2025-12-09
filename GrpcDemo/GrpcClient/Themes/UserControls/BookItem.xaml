@@ -16,11 +16,11 @@
                 </Border>
 
                 <StackPanel Orientation="Vertical" Margin="0,270,0,0">
-                    <TextBlock Text="{Binding BookID, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="5,0,5,5"/>
-                    <TextBlock Text="{Binding BookAuthor, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="5,0,5,5"/>
-                    <TextBlock Text="{Binding BookTitle, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="5,0,5,5"/>
-                    <TextBlock Text="{Binding BookPrice, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="5,0,5,5"/>
-                    <TextBlock Text="{Binding BookStatus, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="5,0,5,5"/>
+                    <TextBlock Text="{Binding BookID, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="10,0,5,5"/>
+                    <TextBlock Text="{Binding BookAuthor, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="10,0,5,5"/>
+                    <TextBlock Text="{Binding BookTitle, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="10,0,5,5"/>
+                    <TextBlock Text="{Binding BookPrice, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="10,0,5,5"/>
+                    <TextBlock Text="{Binding BookStatus, RelativeSource={RelativeSource AncestorType=UserControl}}" Foreground="{Binding BookStatusColor, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="10,0,5,5"/>
                 </StackPanel>
             </Grid>
         </Button>

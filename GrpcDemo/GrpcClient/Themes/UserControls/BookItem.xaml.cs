@@ -71,6 +71,15 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty BookStatusProperty =
             DependencyProperty.Register(nameof(BookStatus), typeof(string), typeof(BookItem));
 
+        public Brush BookStatusColor
+        {
+            get => (Brush)GetValue(BookStatusColorProperty);
+            set => SetValue(BookStatusColorProperty, value);
+        }
+
+        public static readonly DependencyProperty BookStatusColorProperty =
+            DependencyProperty.Register(nameof(BookStatusColor), typeof(Brush), typeof(BookItem));
+
         public string BookID
         {
             get => (string)GetValue(BookIDProperty);
