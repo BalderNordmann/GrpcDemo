@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:GrpcClient.Themes.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="320" d:DesignWidth="280">
-    <Border BorderBrush="#79747E" Background="#E7E0EC"  BorderThickness="1" CornerRadius="5">
+    <Border BorderBrush="#79747E" Background="Transparent"  BorderThickness="1" CornerRadius="5">
         <Button BorderBrush="Transparent" Background="Transparent" Click="Button_Click">
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Viewbox Width="270" Height="190">
