@@ -23,6 +23,7 @@ namespace GrpcClient.Themes.UserControls
         public ShoppingCartItem()
         {
             InitializeComponent();
+            Loaded += shoppingCartItem_Loaded;
         }
 
         public string ItemName
@@ -34,54 +35,70 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty ItemNameProperty =
             DependencyProperty.Register(nameof(ItemName), typeof(string), typeof(ShoppingCartItem));
 
-        public string ItemPrice
+        public float ItemPrice
         {
-            get => (string)GetValue(ItemPriceProperty);
-            set => SetValue(ItemPriceProperty, value);
+            get => (float)GetValue(ItemPriceProperty);
+            set
+            {
+                SetValue(ItemPriceProperty, value);
+                updateItemPriceDisplay();
+            }
         }
 
         public static readonly DependencyProperty ItemPriceProperty =
-            DependencyProperty.Register(nameof(ItemPrice), typeof(string), typeof(ShoppingCartItem));
+            DependencyProperty.Register(nameof(ItemPrice), typeof(float), typeof(ShoppingCartItem));       
 
-        public string ItemPriceCalulated
+        public string ItemPriceDisplay
         {
-            get {
-                if (float.TryParse((string)GetValue(ItemPriceCalulatedProperty), out float price))
-                {
-                    if (int.TryParse((string)GetValue(QuantityProperty), out int amount))
-                    {
-                        float calcPrice = MathF.Round(price * amount, 2);
-                        return $"{calcPrice}€";
-                    }
-                }
-
-                return "0,00€";
-            }
-            set => SetValue(ItemPriceCalulatedProperty, value);
+            get => (string)GetValue(ItemPriceDisplayProperty);
+            set => SetValue(ItemPriceDisplayProperty, value);
         }
 
-        public static readonly DependencyProperty ItemPriceCalulatedProperty =
-            DependencyProperty.Register(nameof(ItemPriceCalulated), typeof(string), typeof(ShoppingCartItem));
+        public static readonly DependencyProperty ItemPriceDisplayProperty =
+            DependencyProperty.Register(nameof(ItemPriceDisplay), typeof(string), typeof(ShoppingCartItem));
 
         public int Quantity
         {
             get => (int)GetValue(QuantityProperty);
-            set => SetValue(QuantityProperty, value);
+            set
+            {
+                SetValue(QuantityProperty, value);
+                updateItemPriceDisplay();
+            }
         }
 
         public static readonly DependencyProperty QuantityProperty =
             DependencyProperty.Register(nameof(Quantity), typeof(int), typeof(ShoppingCartItem),
                 new PropertyMetadata(1));
 
-        private void Plus_Click(object sender, RoutedEventArgs e)
+        private void plus_Click(object sender, RoutedEventArgs e)
         {
             Quantity++;
         }
 
-        private void Minus_Click(object sender, RoutedEventArgs e)
+        private void minus_Click(object sender, RoutedEventArgs e)
         {
-            if (Quantity > 0)
+            if (Quantity > 1)
                 Quantity--;
+        }
+
+        private void removeShoppingCardItem_Click(object sender, RoutedEventArgs e)
+        {
+            //remove
+        }
+
+        private void updateItemPriceDisplay()
+        {
+             float calcPrice = MathF.Round(ItemPrice * Quantity, 2);
+            ItemPriceDisplay = $"{calcPrice.ToString("F2")}€";
+        }
+
+        private void shoppingCartItem_Loaded(object sender, RoutedEventArgs e)
+        {
+            Dispatcher.InvokeAsync(() =>
+            {
+                updateItemPriceDisplay();
+            }, System.Windows.Threading.DispatcherPriority.DataBind);
         }
     }
 }
