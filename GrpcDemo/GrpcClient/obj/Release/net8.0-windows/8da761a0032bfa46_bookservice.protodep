@@ -1,2 +1,0 @@
-obj\Release\net8.0-windows/Bookservice.cs \
-obj\Release\net8.0-windows/BookserviceGrpc.cs: ../Protos/bookservice.proto
