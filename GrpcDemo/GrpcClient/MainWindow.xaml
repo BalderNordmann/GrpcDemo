@@ -31,7 +31,7 @@
         <Border Background="#f2f2f2" CornerRadius="20" Margin="5,73,680,0">
             <ScrollViewer Margin="20,20,20,20" Background="Transparent" BorderBrush="Transparent">
                 <WrapPanel Orientation="Horizontal" Margin="5,5,5,0" VerticalAlignment="Top">
-                    <controls:BookItem BookID="19898" BookAuthor="Anne Nelsen" BookTitle="The grass is green" BookPrice="3,99€" BookStatus="Not in Storage" BookStatusColor="Red" Width="300" Margin="0,0,5,5"/>
+                    <controls:BookItem BookID="19898" BookAuthor="Anne Nelsen" BookTitle="The grass is green" BookPrice="3,99€" BookStatus="Not in Storage" BookStatusColor="Red" Margin="0,0,5,5"/>
                 </WrapPanel>
             </ScrollViewer>
         </Border>
