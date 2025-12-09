@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="GrpcClient.Themes.UserControls.BookItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GrpcClient.Themes.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="300">
+    <Border Padding="10" BorderBrush="Gray" Background="White"  BorderThickness="1" CornerRadius="5">
+        <Grid Background="Transparent">
+            <Border BorderBrush="Gray" Background="Transparent" BorderThickness="1" CornerRadius="5" Margin="0,0,0,130">
+                <Viewbox VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,5,5,5">
+                    <Path x:Name="IconPath" Data="M300-80q-59 0-99.5-40.5T160-220v-520q0-58 40.5-99t99.5-41h500v600q-26 0-43 17.5T740-220q0 26 17 43t43 17v80H300Zm0-80h373q-6-14-9.5-28.5T660-220q0-16 3-31t10-29H300q-26 0-43 17.5T240-220q0 26 17 43t43 17Zm-60-187q14-7 28.5-10t31.5-3h420v-440H300q-26 0-43 17.5T240-740v393Zm109-93h49l25-71h113l25 71h49L504-720h-50L349-440Zm88-112 41-116h3l41 116h-85ZM240-347v-453 453Z" Fill="Black" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                </Viewbox>
+            </Border>
+        
+            <StackPanel Orientation="Vertical" Margin="0,253,0,0">
+                <TextBlock Text="{Binding BookAuthor, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding BookTitle, RelativeSource={RelativeSource AncestorType=UserControl}}" Margin="0,0,0,5"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>
