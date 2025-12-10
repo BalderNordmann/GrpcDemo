@@ -15,7 +15,7 @@
 
     <DropShadowEffect x:Key="M3Elevation1" BlurRadius="5" ShadowDepth="1" Opacity="0.2" Color="Black"/>
 
-    <Style x:Key="ButtonM3" TargetType="Button">
+    <Style x:Key="ButtonM3Primary" TargetType="Button">
         <Setter Property="Background" Value="{StaticResource M3PrimaryBrush}"/>
         <Setter Property="Foreground" Value="{StaticResource M3OnPrimaryBrush}"/>
         <Setter Property="FontSize" Value="14"/>

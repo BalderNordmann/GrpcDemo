@@ -6,7 +6,8 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Themes/ButtonM3.xaml"/>
+                <ResourceDictionary Source="Themes/ButtonM3Primary.xaml"/>
+                <ResourceDictionary Source="Themes/ButtonM3Secondary.xaml"/>
                 <ResourceDictionary Source="Themes/IconButtonM3.xaml"/>
                 <ResourceDictionary Source="Themes/InputfieldWithIconM3.xaml"/>
                 <ResourceDictionary Source="Themes/ChipM3.xaml"/>

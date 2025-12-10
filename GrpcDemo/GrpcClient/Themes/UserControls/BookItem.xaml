@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="340" d:DesignWidth="280">
     <Border BorderBrush="#79747E" Background="Transparent"  BorderThickness="1" CornerRadius="20">
-        <Button Style="{StaticResource ButtonM3}" BorderBrush="Transparent" Background="Transparent" Click="button_Click">
+        <Button Style="{StaticResource ButtonM3Primary}" BorderBrush="Transparent" Background="Transparent" Click="button_Click">
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Grid Width="270" Height="190">
                     <Viewbox Width="270" Height="190">
