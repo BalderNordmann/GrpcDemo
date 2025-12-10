@@ -44,30 +44,30 @@
                 <Button Style="{StaticResource ButtonM3}" Content="Unselect All" Width="180" Height="48" Margin="200,80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="Button_Click"/>
                 <ScrollViewer Margin="0,146,0,20" Width="400" Background="Transparent" BorderBrush="Transparent">
                     <WrapPanel Orientation="Horizontal" Margin="-5,-5,0,0" Width="400" VerticalAlignment="Top">
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Historical Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fantasy" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Graphic Novel" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Short Story" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Young Adult" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Magical Realism" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fairy Tale" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Western Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Horror" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Memoir" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Literary Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Thriller" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Adventure Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="ChildrensLiterature" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Womans Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Biography" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Science Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Mystery" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Romance" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Contemporary Literature" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Dystopian Fiction" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Classics" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Suspense" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
-                        <ToggleButton Style="{StaticResource ChipM3}" Content="Satire" IsChecked="True" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Historical Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fantasy" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Graphic Novel" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Short Story" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Young Adult" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Magical Realism" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Fairy Tale" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Western Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Horror" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Memoir" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Literary Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Thriller" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Adventure Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="ChildrensLiterature" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Womans Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Biography" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Science Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Mystery" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Romance" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Contemporary Literature" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Dystopian Fiction" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Classics" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Suspense" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
+                        <ToggleButton Style="{StaticResource ChipM3}" Content="Satire" IsChecked="False" Height="40" Padding="10,10" Margin="10,5,0,5"/>
                     </WrapPanel>
                 </ScrollViewer>
             </Grid>

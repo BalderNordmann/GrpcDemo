@@ -35,6 +35,16 @@ namespace GrpcClient.Themes.UserControls
             remove { RemoveHandler(ClickEvent, value); }
         }
 
+        public static readonly RoutedEvent InfoClickEvent =
+            EventManager.RegisterRoutedEvent(name: "InfoClick", routingStrategy: RoutingStrategy.Bubble,
+            handlerType: typeof(RoutedEventHandler), ownerType: typeof(BookItem));
+
+        public event RoutedEventHandler InfoClick
+        {
+            add { AddHandler(InfoClickEvent, value); }
+            remove { RemoveHandler(InfoClickEvent, value); }
+        }
+
         public string BookTitle
         {
             get => (string)GetValue(BookTitleProperty);
@@ -89,15 +99,26 @@ namespace GrpcClient.Themes.UserControls
         public static readonly DependencyProperty BookIDProperty =
             DependencyProperty.Register(nameof(BookID), typeof(string), typeof(BookItem));
 
-        protected void RaiseClickEvent()
+        protected void raiseClickEvent()
         {
             RoutedEventArgs args = new RoutedEventArgs(ClickEvent);
             RaiseEvent(args);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        protected void raiseInfoClickEvent()
         {
-            RaiseClickEvent();
+            RoutedEventArgs args = new RoutedEventArgs(InfoClickEvent);
+            RaiseEvent(args);
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            raiseClickEvent();
+        }
+        
+        private void infoButton_Click(object sender, RoutedEventArgs e)
+        {
+            raiseInfoClickEvent();
         }
     }
 }

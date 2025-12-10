@@ -92,7 +92,7 @@ namespace GrpcClient.Themes.UserControls
                 Quantity--;
         }
 
-        protected void RaiseRemoveEvent()
+        protected void raiseRemoveEvent()
         {
             RoutedEventArgs args = new RoutedEventArgs(RemoveEvent);
             RaiseEvent(args);
@@ -100,7 +100,7 @@ namespace GrpcClient.Themes.UserControls
 
         private void removeShoppingCardItem_Click(object sender, RoutedEventArgs e)
         {
-            RaiseRemoveEvent();
+            raiseRemoveEvent();
         }
 
         private void updateItemPriceDisplay()
