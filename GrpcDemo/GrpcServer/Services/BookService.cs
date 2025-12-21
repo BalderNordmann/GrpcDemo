@@ -10,6 +10,7 @@ namespace GrpcServer.Services
         public BookStoreService(ILogger<BookStoreService> _logger)
         {
             logger = _logger;
+            DatabaseService.Instance.GetAllBooks();
         }
 
         public override Task<BookModel> GetBookInfo(BookLookupModel request, ServerCallContext context)
