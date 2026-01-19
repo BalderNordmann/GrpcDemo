@@ -1,5 +1,5 @@
 syntax = "proto3";
-
+import "google/protobuf/empty.proto";
 option csharp_namespace = "GrpcServer";
 
 package bookservice;
@@ -7,6 +7,7 @@ package bookservice;
 service BookService {
   rpc GetBookInfo (BookLookupModel) returns (BookModel);
   rpc GetAllBooks (GetAllBooksRequest) returns (stream BookModel);
+  rpc UpdateBookInfo (BookLookupModelUpdate) returns (google.protobuf.Empty);
 }
 
 message GetAllBooksRequest {
@@ -14,6 +15,12 @@ message GetAllBooksRequest {
 
 message BookLookupModel {
   int32 bookID = 1;
+}
+
+message BookLookupModelUpdate {
+  int32 bookID = 1;
+  int32 bookInStock = 2;
+  int32 bookStatus = 3;
 }
 
 enum BookCategory{
@@ -43,11 +50,18 @@ enum BookCategory{
 	Satire = 23;
 }
 
+enum BookStatus{
+	InStock = 0;
+	Ordered = 1;
+	NotAvailable = 2;	
+}
+
 message BookModel {
   int32 bookID = 1;
   string title = 2;
   string author = 3;
   float price = 4;
-  bool isAvailable = 5;
+  optional BookStatus bookStatus = 5;
   optional BookCategory bookCategory = 6;
+  int32 bookInStock = 7;
 }

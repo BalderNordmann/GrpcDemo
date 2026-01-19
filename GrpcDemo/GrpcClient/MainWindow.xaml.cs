@@ -62,7 +62,7 @@ namespace GrpcClient
                 while (await call.ResponseStream.MoveNext(new CancellationToken()))
                 {
                     var currentBook = call.ResponseStream.Current;
-                    outputString += $"BookID: {currentBook.BookID}, Title: {currentBook.Title}, Author: {currentBook.Author}, price: {currentBook.Price}, isAvailable {currentBook.IsAvailable}, bookCategory {currentBook.BookCategory}\n";
+                    outputString += $"BookID: {currentBook.BookID}, Title: {currentBook.Title}, Author: {currentBook.Author}, price: {currentBook.Price}, bookStatus {currentBook.BookStatus}, bookCategory {currentBook.BookCategory}\n";
                 }
             }
 

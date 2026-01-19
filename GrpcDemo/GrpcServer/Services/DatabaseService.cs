@@ -13,7 +13,9 @@ namespace GrpcServer.Services
 
         private DatabaseService()
         {
-            string connectionString = "Data Source=./Database/GrpcDemoDataBase.db";
+            var dbPath = Path.Combine(AppContext.BaseDirectory, "Database", "GrpcDemoDataBase.db");
+
+            string connectionString = $"Data Source={dbPath}";
 
             connection = new SqliteConnection(connectionString);
             connection.StateChange += connection_StateChange;
@@ -36,41 +38,88 @@ namespace GrpcServer.Services
             Dispose();
         }
 
-        public void GetAllBooks()
+        public List<BookModel> GetAllBooks()
         {
             if (connection.State != System.Data.ConnectionState.Open)
             {
                 Console.WriteLine("Can't get Data! Connection is not Open");
-            }
+                return null;
+            }            
 
-            string selectSql = "SELECT bi.ID, ba.AuthorName, bi.BookTitle, bc.Category, bi.BookPrice, bi.BooksInStock, bs.Status FROM " +
-                "BookInventory AS bi LEFT JOIN BookAuthors AS ba ON bi.BookAuthor = ba.ID LEFT JOIN BookCategory AS bc ON bi.BookCategory = bc.ID " +
-                "LEFT JOIN BookStatus AS bs ON bi.BookStatus = bs.ID;";
+            string selectSql = "SELECT bi.ID, ba.AuthorName, bi.BookTitle, bi.BookCategory, bi.BookPrice, bi.BooksInStock, bi.BookStatus FROM " +
+                "BookInventory AS bi LEFT JOIN BookAuthors AS ba ON bi.BookAuthor = ba.ID;";
 
             using var cmd = new SqliteCommand(selectSql, connection);
             using var reader = cmd.ExecuteReader();
+            List <BookModel> books = new List<BookModel>();
 
             while (reader.Read())
             {
-                string currentOutput = string.Empty;
+                List<string> bookContent = new List<string>();
                 for (int i = 0; i < reader.FieldCount; i++)
                 {
-                    currentOutput += $"{reader[i].ToString()}, ";
+                    if (reader[i] == null)
+                    {
+                        bookContent.Add("0");
+                        Console.WriteLine("Error!, no Item found;");
+                        continue;
+                    }
+
+                    bookContent.Add(reader[i].ToString());
                 }
 
-                Console.WriteLine(currentOutput);
+                books.Add(DatabaseTranslater.TranslateToBookModel(bookContent));
             }
+
+            return books;
         }
 
-        public void UpdateBook()
+        public BookModel GetBookByID(int _bookID)
         {
-            string updateSql = "UPDATE Users SET Name = @name, Age = @age WHERE Id = @id";
+            string selectSql = "SELECT bi.ID, ba.AuthorName, bi.BookTitle, bi.BookCategory, bi.BookPrice, bi.BooksInStock, bi.BookStatus FROM " +
+                "BookInventory AS bi LEFT JOIN BookAuthors AS ba ON bi.BookAuthor = ba.ID WHERE bi.ID = @bookId;";
+
+            using var cmd = new SqliteCommand(selectSql, connection);
+            cmd.Parameters.AddWithValue("@bookId", _bookID);
+            using var reader = cmd.ExecuteReader();
+            List<BookModel> books = new List<BookModel>();
+
+            while (reader.Read())
+            {
+                List<string> bookContent = new List<string>();
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    if (reader[i] == null)
+                    {
+                        bookContent.Add("0");
+                        Console.WriteLine("Error!, no Item found;");
+                        continue;
+                    }
+
+                    bookContent.Add(reader[i].ToString());
+                }
+
+                books.Add(DatabaseTranslater.TranslateToBookModel(bookContent));
+            }
+
+            return books[0];
+        }
+
+        public void UpdateBook(int _booksInStock, int _bookStatus, int _bookID)
+        {
+            if (connection.State != System.Data.ConnectionState.Open)
+            {
+                Console.WriteLine("Can't get Data! Connection is not Open");
+                return;
+            }
+
+            string updateSql = "UPDATE BookInventory SET BooksInStock = @booksInStock, BookStatus = @bookStatus WHERE Id = @id";
 
             using var cmd = new SqliteCommand(updateSql, connection);
 
-            cmd.Parameters.AddWithValue("@name", "Bob");
-            cmd.Parameters.AddWithValue("@age", 35);
-            cmd.Parameters.AddWithValue("@id", 1); // ID of the record to update
+            cmd.Parameters.AddWithValue("@booksInStock", _booksInStock);
+            cmd.Parameters.AddWithValue("@bookStatus", _bookStatus);
+            cmd.Parameters.AddWithValue("@id", _bookID);
 
             int rowsAffected = cmd.ExecuteNonQuery();
 

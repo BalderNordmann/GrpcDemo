@@ -1,4 +1,5 @@
-﻿using Grpc.Core;
+﻿using Google.Protobuf.WellKnownTypes;
+using Grpc.Core;
 using Microsoft.VisualBasic;
 using System.Diagnostics;
 
@@ -10,70 +11,27 @@ namespace GrpcServer.Services
         public BookStoreService(ILogger<BookStoreService> _logger)
         {
             logger = _logger;
-            DatabaseService.Instance.GetAllBooks();
         }
 
         public override Task<BookModel> GetBookInfo(BookLookupModel request, ServerCallContext context)
         {
-            BookModel output = new BookModel();
-
-            //there i can put it in my Datbase
-            if (request.BookID == 1)
-            {
-                output.Title = "The best way";
-                output.Author = "Joy Gorden";
-            }
-            else if (request.BookID == 2)
-            {
-                output.Title = "Never ending";
-                output.Author = "Doe Jorden";
-            }
-            else
-            {
-                output.Title = "The best time";
-                output.Author = "Thomas Alleson";
-            }
-
+            BookModel output = DatabaseService.Instance.GetBookByID(request.BookID);
             return Task.FromResult(output);
         }
 
         public override async Task GetAllBooks(GetAllBooksRequest request, IServerStreamWriter<BookModel> responseStream, ServerCallContext context)
         {
-            List<BookModel> books = new List<BookModel>()
+            foreach (var book in DatabaseService.Instance.GetAllBooks())
             {
-                new BookModel()
-                {
-                    BookID = 0,
-                    Title = "Annes next journey",
-                    Author = "Doe Jorden",
-                    Price = 32.2f,
-                    IsAvailable = true,
-                    BookCategory = BookCategory.Classics,
-                },
-                new BookModel()
-                {
-                    BookID = 1,
-                    Title = "Annes next journey",
-                    Author = "Doe Jorden",
-                    Price = 21.99f,
-                    IsAvailable = true,
-                    BookCategory = BookCategory.Classics,
-                },
-                new BookModel()
-                {
-                   BookID = 2,
-                    Title = "Annes next journey",
-                    Author = "Doe Jorden",
-                    Price = 19.99f,
-                    IsAvailable = true,
-                    BookCategory = BookCategory.Classics,
-                },
-            };
-
-            foreach (var book in books)
-            {
+                Console.WriteLine($"Sending BookInfo: {book.BookID}, {book.Author}, {book.Title}, {book.Price}, {book.BookInStock}, {book.BookCategory}, {book.BookStatus};");
                 await responseStream.WriteAsync(book);
             }
+        }
+
+        public override Task<Empty> UpdateBookInfo(BookLookupModelUpdate request, ServerCallContext context)
+        {
+            DatabaseService.Instance.UpdateBook(request.BookInStock, request.BookStatus, request.BookID);
+            return Task.FromResult(new Empty());
         }
     }
 }
