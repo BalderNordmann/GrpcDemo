@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace GrpcClient
+namespace GrpcClient.View
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -82,7 +82,7 @@ namespace GrpcClient
         private void toggleBookCategory()
         {
             double from = isPanelOpen ? 0 : -SidePanel.Width;
-            double to = isPanelOpen ? -SidePanel.Width : 0 + 5;  
+            double to = isPanelOpen ? -SidePanel.Width : 0 + 5;
 
             var animation = new ThicknessAnimation
             {

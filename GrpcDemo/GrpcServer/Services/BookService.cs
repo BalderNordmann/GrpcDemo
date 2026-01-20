@@ -1,7 +1,5 @@
 ﻿using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
-using Microsoft.VisualBasic;
-using System.Diagnostics;
 
 namespace GrpcServer.Services
 {
